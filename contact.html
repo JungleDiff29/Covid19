@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header><h1>Contact Us</h1></header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="content.html">Content</a>
+    <a href="multimedia.html">Multimedia</a>
+    <a href="references.html">References</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <form id="contactForm">
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formResponse" aria-live="polite"></p>
+  </main>
+  <footer><p>&copy; 2025 COVID-19 Info Hub</p></footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('formResponse').textContent = "Message sent successfully!";
+      this.reset();
+    });
+  </script>
+</body>
+</html>

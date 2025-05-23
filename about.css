@@ -1,0 +1,31 @@
+.about-section {
+  padding: 2rem;
+}
+.intro, .creators, .course-info {
+  margin-bottom: 2rem;
+}
+.creators {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.creator {
+  width: 180px;
+  text-align: center;
+}
+.creator img {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #0077cc;
+}
+.creator p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+.course-info p {
+  background: #f0f8ff;
+  padding: 1rem;
+  border-left: 4px solid #0077cc;
+}
+
+
