@@ -6,9 +6,10 @@ body {
 }
 header, nav, main, footer {
   padding: 1rem;
+  background-color: turquoise;
 }
 nav {
-  background: #000000;
+  background: #0A1828;
   text-align: center;
 }
 nav a {
@@ -16,8 +17,17 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
 }
-h1{
+header h1{
   color: #004080;
+  justify-content: justify;
+}
+header p{
+  color:#000000;
+}
+.index{
+  color: #178582;
+  border-width: 100%;
+  text-decoration: none;
 }
 main {
   padding: 2rem;
@@ -25,15 +35,6 @@ main {
 img, video {
   max-width: 100%;
   height: auto;
-}
-form {
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-}
-form input, form textarea {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
 }
 footer {
   background: #eee;
@@ -47,5 +48,3 @@ footer {
   }
   nav a {
     margin: 0.5rem 0;
-  }
-}
