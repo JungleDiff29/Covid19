@@ -1,15 +1,14 @@
 .welcome {
   background-color: #e6f2ff;
-  padding: 2px;
+  padding: 2rem;
   border-left: 5px solid #0077cc;
-  margin: 2px 0;
+  margin: 2rem 0;
 }
 .welcome h2 {
   color: #004080;
 }
 .welcome p {
   font-size: 1.1rem;
-  line-height: 1.6;
 }
 
 
