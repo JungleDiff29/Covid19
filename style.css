@@ -11,6 +11,10 @@ header {
   position: relative;
 }
 
+p ,h2, h3 {
+  color: #d1d5db; /* Light gray */
+}
+
 nav {
   display: flex;
   justify-content: center;
