@@ -14,7 +14,9 @@ header {
 p ,h2, h3 {
   color: #d1d5db; /* Light gray */
 }
-
+li{
+  color: #004080;
+}
 nav {
   display: flex;
   justify-content: center;
