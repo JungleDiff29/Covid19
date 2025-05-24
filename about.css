@@ -25,7 +25,7 @@
 .course-info p {
   background: #f0f8ff;
   padding: 1rem;
-  border-left: 4px solid #0077cc;
+  border-left: 4px solid #000000;
   .gallery {
     display: flex;
     flex-wrap: wrap;
