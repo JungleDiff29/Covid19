@@ -12,8 +12,13 @@
 <body>
   <header>
     <h1>COVID19 INFO HUB</h1>
-    </header>
-  <nav>
+      <div class="burger" id="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+</header>
+  <nav id="nav">  
     <a class="index" href="index.html">Home</a>
     <a href="about.html">About Us</a>
     <a href="content.html">Content</a>
@@ -37,5 +42,14 @@
   <footer>
     <p>&copy; 2025 COVID-19 Info Hub</p>
   </footer>
+
+  <script>
+  const burger = document.getElementById('burger');
+  const nav = document.getElementById('nav');
+
+  burger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+  </script>
 </body>
 </html>
