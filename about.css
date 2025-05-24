@@ -23,9 +23,9 @@
   font-size: 0.95rem;
 }
 .course-info p {
-  background: #f0f8ff;
+  background: #161b22;
   padding: 1rem;
-  border-left: 4px solid #000000;
+  border-left: 4px solid #0077cc;
   .gallery {
     display: flex;
     flex-wrap: wrap;
